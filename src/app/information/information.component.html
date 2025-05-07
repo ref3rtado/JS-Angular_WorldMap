@@ -1,0 +1,20 @@
+<!-- NOTE: API response object paths update | response variable = apiResponse[1][0]
+World Bank API Properties:
+Calling      -> https://api.worldbank.org/v2/country/[svg path id]?format=json
+Country Name -> response.name              -> countryName
+Capital      -> response.capitalCity       -> capitalCity
+Region       -> response.region.value      -> region
+Income Level -> response.incomeLevel.value -> incomeLevel
+Longitude    -> response.longitude         -> longitude
+Latitude     -> response.latitude          -> latitude
+-->
+<div id="info-block">
+    <h1 id="country-name">{{countryName}}</h1>
+    <ul id="stats">
+       <li><em>Capital City: </em>{{capitalCity}}</li>
+       <li><em>World region: </em>{{region}}</li>
+       <li><em>Income level: </em>{{incomeLevel}}</li>
+       <li><em>Longitude: </em>{{longitude}}</li>
+       <li><em>Latitude: </em>{{latitude}}</li>
+    </ul>
+</div>
