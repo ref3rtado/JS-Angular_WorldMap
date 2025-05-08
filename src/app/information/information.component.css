@@ -1,0 +1,38 @@
+#info-block {
+    display: inline-block;
+    border: 4px outset #A40A10;
+    border-radius: 7px;
+    background-color: #f5f8ee;
+    box-shadow: 5px 8px 19px 0px #000000;
+    padding: 10px 20px;
+    position: absolute;
+    right: 1.5%;
+    top: 4.1%;
+    max-width: 25vw;
+ }
+
+h1, li {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+li {
+    font-size: 0.95em;
+    list-style-type: none;  
+    color: rgb(99, 99, 99); 
+}
+
+ul {
+    text-align: left;
+    padding: 0;
+}
+li > em {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.1em;
+    
+}
